@@ -1,0 +1,66 @@
+body{
+    background:linear-gradient(135deg,#ff71ce, #01cdfe); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+header {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4em;
+    color: #ff71ce; 
+    text-align: center;
+    text-shadow: 2px 2px #01cdfe, -2px -2px #f5a623; 
+    margin-top: 30px;
+}
+section {
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    margin-top: 20px;
+}
+.chamada-texto {
+    font-family: 'Press Start 2P', cursive;
+    font-size: small;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.Conteudo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: smaller;
+    text-align: justify;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.recomendacoes-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+  img {
+    height: 300px;
+  }
+  .thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .titulo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: smaller;
+    text-align: justify;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+
+  
